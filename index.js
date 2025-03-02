@@ -5,7 +5,7 @@ const client = new Client({
 });
 
 const reloadPresence = require('./config.js');
-const keepAlive = require('./keepAlive.js');
+const keepAlive = require('./keep_alive.js');
 
 keepAlive();
 
