@@ -1,13 +1,7 @@
-const { Client, GatewayIntentBits } = require('discord.js-selfbot-v13');
+const { Client } = require('discord.js-selfbot-v13');
 
 const client = new Client({
-    checkUpdate: false,
-    intents: [
-        GatewayIntentBits.Guilds,
-        GatewayIntentBits.GuildMessages,
-        GatewayIntentBits.MessageContent,
-        GatewayIntentBits.GuildMembers
-    ]
+    checkUpdate: false
 });
 
 const reloadPresence = require('./config.js');
